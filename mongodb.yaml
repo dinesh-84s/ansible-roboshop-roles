@@ -1,5 +1,5 @@
-- name: configure mongodb componet
+- name: configure mongodb component
   become: yes
   hosts: mongodb
   roles: #this is automatically load a folder called present directory
-  - mongodb
+- mongodb
