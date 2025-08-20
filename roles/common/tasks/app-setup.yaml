@@ -10,7 +10,7 @@
     system: true
     home: /app
 
-- name: download {{ componen }} code
+- name: download {{ component }} code
   ansible.builtin.get_url:
     url: "https://roboshop-artifacts.s3.amazonaws.com/{{ component }}-v3.zip" 
     dest: /tmp/{{ component }}.zip
