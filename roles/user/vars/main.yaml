@@ -1,2 +1,2 @@
 REDIS_HOST: redis.dineshkonda.site
-CATALOGUE_HOST: catalogue.dineshkonda.site
+MONGODB_HOST: mongodb.dineshkonda.site
