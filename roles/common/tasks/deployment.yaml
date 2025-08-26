@@ -11,7 +11,7 @@
     path: /app
 
 - name: create /app directory 
-  ansible.buitlin.file:
+  ansible.builtin.file:
     state: directory 
     path: /app
 
@@ -26,6 +26,6 @@
     path: /app
 
 - name: restart {{ component }}
-  ansible.buitlin.service:
+  ansible.builtin.service:
     name: "{{ component }}"
     state: restarted
