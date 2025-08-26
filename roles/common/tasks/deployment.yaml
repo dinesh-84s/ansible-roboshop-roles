@@ -4,9 +4,9 @@
   ansible.builtin.service:
     name: "{{ component }}"
     state: stopped
-    
+
 - name: remove /app directory
-  ansible.buitlin.file:
+  ansible.builtin.file:
     state: absent 
     path: /app
 
